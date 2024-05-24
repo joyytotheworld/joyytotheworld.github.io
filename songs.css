@@ -1,0 +1,169 @@
+html {
+    background-image: url(images/graystarwallpaerp.jpg)
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(images/rsz_1blacksky.jpg) left bottom repeat-x, #FFF url(images/rsz_1blacksky.jpg) left top repeat-x;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.audio-controls {
+    align-self: center;
+}
+
+.image-banner {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    z-index: 10;
+}
+
+.banner-caption {
+    position: relative;
+    bottom:3px;
+    left: 0px;
+    background-color: (155, 155, 155);
+    background-image: linear-gradient(to bottom, rgb(155, 155, 155), rgb(255, 255, 255));
+    padding: 15px 25px;
+}
+
+
+/*Media Query*/
+@media screen and (max-width: 489px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+/*End of Media Query*/
+
+.box1 {
+    background: url(images/actuallyawwebsigebacktroudn.jpg) no-repeat right center;
+    background-size: cover;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #b9b9b9;
+
+}
+
+/* Typography */
+header h1 {
+    margin: 0;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 165%;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 2px 10px 1px #3a3a3a;
+}
+/* End of Typography */
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+.content-area {   
+    border-top: 3px solid #cfcfcf;
+    padding-top: 40px;
+}
+
+/*Media Query*/
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-top: 20px;
+    }
+}
+/*Media Query*/
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+
+.fix {
+    clear: both;
+}
+
+/*Media Query*/
+@media screen and (max-width: 700px) {
+    .main,
+    .support {
+        width: auto;
+        float: none;
+    }
+
+    .main {
+        padding-right: 0;
+    }
+}
+/*Media Query*/
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+/* Site Navigation */
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0px;
+}
+
+.site-nav {
+    margin-top: 20px;
+    /*padding: 40px;*/
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #8b8b8b;
+    padding: 10px 20px;
+    border: 3px solid #dddddd;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #cfcfcf;
+}
+/* End of Site Navigation */

@@ -1,0 +1,383 @@
+html {
+    background-image: url(images/graystarwallpaerp.jpg)
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner Overlay */
+.image-banner {
+    position: relative;
+    top: 10px;
+    left: 0px;
+    z-index: 10;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-caption {
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 25px;
+}
+
+.banner-caption p {
+    color: white;
+}
+/* End Banner Overlay */
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(images/rsz_1blacksky.jpg) left bottom repeat-x, #FFF url(images/rsz_1blacksky.jpg) left top repeat-x;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.container p span {
+    color: white;
+    background-color: rgb(54, 54, 54);
+}
+
+/*Media Query*/
+@media screen and (max-width: 489px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+/*End of Media Query*/
+
+.box1 {
+    background: url(images/actuallyawwebsigebacktroudn.jpg) no-repeat right center;
+    background-size: cover;
+}
+
+/* Form Styles */
+form {
+    background-color: #bbbbbb;
+    padding: 30px 40px;
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type="email"], input[type="password"], select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #cacaca;
+}
+
+input, select {
+    font-family: Tahoma sans-serif;
+    font-size: 100%;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border: 1px #9c9c9c;
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-image: url(images/starsrepeat.jpg);
+    color: #424242;
+    padding: 10px 0;
+    border: 1px solid #707070;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+/* End Form Styles */
+
+/* Table Styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+table th {
+    text-align: left;
+    background: url(images/sparklebalckwhite.jpg);
+    color: #FFF;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4)
+}
+
+table th, table td {
+    border: 1px solid #4b4b4b;
+    padding: 10px;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: #d8d8d8;
+}
+
+table th:nth-child(2), table th:nth-child(3),
+table td:nth-child(2), table td:nth-child(3) {
+    text-align: center;
+}
+/* End Table Styles */
+
+.first label span {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #b9b9b9;
+
+}
+
+/* Typography */
+header h1 {
+    margin: 0;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 165%;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-shadow: 2px 10px 1px #3a3a3a;
+}
+
+header p {
+    font-size: 100%;
+    margin-top: 10px;
+    text-align: justify;
+    color: rgb(148, 148, 148);
+}
+
+header p a {
+    text-decoration: none;
+}
+
+.p1 p {
+    margin-top: 10px;
+    text-indent: 25px;
+    color: gray;
+}
+/* End of Typography */
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+.content-area {   
+    border-top: 3px solid #cfcfcf;
+    border-bottom: 3px solid #cfcfcf;
+}
+
+/*Media Query*/
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-top: 20px;
+    }
+}
+/*Media Query*/
+
+.main {
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+/* Disappearing info-box */
+.info-box {
+    background-color: #dfdfdf;
+    border: 5px solid #bdbdbd;
+    padding: 20px 40px 7px 40px;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 480px) {
+    .hide-small {
+        display: none;
+    }
+}
+
+/* End of disappearing info-box */
+
+.support {
+    position: relative;
+    width: 30%;
+    float: left;
+    background-color: #494949;
+    background-image: linear-gradient(to bottom, #494949, #FFF);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 9;
+}
+
+.fix {
+    clear: both;
+}
+
+/*Media Query*/
+@media screen and (max-width: 700px) {
+    .main,
+    .support {
+        width: auto;
+        float: none;
+    }
+
+    .main {
+        padding-right: 0;
+    }
+}
+/*Media Query*/
+
+p {
+    color: rgb(56, 56, 56);
+}
+
+footer p {
+    color: rgb(107, 107, 107);
+    text-align: center;
+    font-size: 85%;
+    color:#252525;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.support header p span {
+    color: rgb(255, 255, 255);
+    background-color: #585858;
+}
+
+.support p span {
+    color: white;
+    background-color: 494949;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 165%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    color:rgb(107, 107, 107);
+}
+
+aside {
+    color: #535353;
+}
+
+header p span {
+    color: rgb(114, 114, 114);
+}
+
+/* Site Navigation */
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav ul {
+    margin: 0px;
+}
+
+.site-nav {
+    margin-top: 20px;
+    /*padding: 40px;*/
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #8b8b8b;
+    padding: 10px 20px;
+    border: 3px solid #dddddd;
+    display: block;
+    border-bottom: none;
+}
+
+.site-nav a:hover {
+    background-color: #cfcfcf;
+}
+/* End of Site Navigation */
+
+@media screen and (max-width: 700px) {
+    .site-nav li {
+        width: 50%;
+        margin-right: 0;
+    }
+
+    .site-nav a {
+        padding: 20px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border: 3px solid #cecece;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .site-nav li {
+        width: 70%;
+        margin-right: 0;
+    }
+    .site-nav a {
+        padding: 20px 0;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        border: 3x solid #d4d4d4;
+    }
+}
